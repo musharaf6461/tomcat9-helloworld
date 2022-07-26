@@ -12,12 +12,11 @@ build:
 
 deploy:
   context: musharaf6461/DEV
-  replicas: 2
+  replicas: 1
   port: 
    - 8080
 
-properties:
-  MOD_CLUSTER: modcluster-1-3:6666
+properties:  
   title: Tomcat HelloWorld - Basic-AppZ 2.0.3 
   head_color : Blue
   threads: 2
